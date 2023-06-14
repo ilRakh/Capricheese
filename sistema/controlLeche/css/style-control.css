@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(214, 214, 214);
+}
+
+.btn-danger,
+.btn-success {
+    width: 100%;
+}
+
+.alert {
+    background-color: #fff;
+    border: 1px solid rgb(250, 149, 149);
+}
+
+.alert-accept {
+    display: flex;
+    background-color: rgb(163, 248, 177);
+    border: 3px solid rgb(66, 172, 84);
+    justify-content: center;
+}
+
+.alert-decline {
+    display: flex;
+    background-color: rgb(248, 176, 176);
+    border: 3px solid rgb(172, 66, 66);
+    justify-content: center;
+}
+
+#btn-modal {
+    float: right;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgb(0, 140, 255);
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px 10px 0px;
+    width: 100%;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+#label-range {
+    font-size: 20px;
+}
+
+#label-obs {
+    display: block;
+}
+
+.bxs-star,
+.bx-star {
+    color: rgb(255, 72, 0);
+}
+
+.dia {
+    float: left;
+}
+
+.row {
+    margin: 10px 0px 10px 0px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-text {
+    text-align: right;
+    width: 85%;
+    font-size: 25px;
+}
+
+.bx-log-out {
+    color: rgb(255, 255, 255);
+}
+
+.bx-log-out:hover {
+    color: rgb(255, 0, 0);
+}
+
+footer {
+    position: fixed;
+    background-color: rgb(202, 200, 200);
+    width: 100.9%;
+    bottom: 0px;
+    height: 8.5vh;
+}

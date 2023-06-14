@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(214, 214, 214);
+}
+
+.content {
+    margin-top: 10px;
+}
+
+.progress {
+    width: 95%;
+    margin-top: 4px;
+}
+
+.progress-background {
+    height: 50px;
+    margin: 5px;
+    background-color: white;
+    border: 1px solid rgb(250, 149, 149);
+    border-radius: 5px;
+    padding-top: 5px;
+}
+
+.progress-container {
+    display: flex;
+    justify-content: center;
+}
+
+.progress-text {
+    display: flex;
+    margin-left: 15px;
+}
+
+.background {
+    background-color: white;
+    border: 1px solid rgb(250, 149, 149);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.navbar-text {
+    text-align: right;
+    width: 65%;
+    font-size: 25px;
+}
+
+.bx-log-out {
+    color: rgb(255, 255, 255);
+}
+
+.bx-log-out:hover {
+    color: rgb(255, 0, 0);
+}

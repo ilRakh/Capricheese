@@ -1,0 +1,11 @@
+USUARIOS: 
+
+Administrador: admin
+Jefe: jefe
+Control de Stock: stock
+Control de Leche: Cisterna
+Laboratorio: laboratorio
+Produccion: produccion
+Control de Atmosfera: curado
+
+Contraseña para todos los usuarios: 123

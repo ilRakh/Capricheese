@@ -1,0 +1,298 @@
+body {
+    background-color: rgb(214, 214, 214);
+    overflow-y: hidden;
+}
+
+.cuadro {
+    display: flex;
+    text-align: center;
+    justify-content: right;
+    align-items: center;
+}
+
+.state {
+    font-size: 100px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.center-ok {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.linea {
+    position: absolute;
+    width: 1px;
+    height: 90.5vh;
+    background-color: black;
+    z-index: -1;
+}
+
+.circulo {
+    width: 100%;
+    height: 200px;
+    margin-top: 200px;
+    border: solid 4px black;
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    font-size: 100px;
+}
+
+.abajo {
+    display: flex;
+}
+
+.col-md-5 {
+    height: 90.5vh;
+}
+
+.grafico-temperatura {
+    margin-top: 18px;
+}
+
+.grafico-temperatura,
+.grafico-humedad,
+.grafico-co2 {
+    margin-left: 30px;
+}
+
+.temp,
+.humedad,
+.co2 {
+    background-color: black;
+    width: 10%;
+    height: 25vh;
+    margin: 15px 0px 15px 5px;
+}
+
+.any {
+    background-color: rgb(167, 167, 167);
+}
+
+.low {
+    background-color: rgb(248, 223, 82);
+}
+
+.mid-low {
+    background-color: rgb(248, 162, 82);
+}
+
+.middle {
+    background-color: rgb(250, 121, 0);
+}
+
+.mid-high {
+    background-color: rgb(247, 74, 21);
+}
+
+.high {
+    background-color: rgb(250, 0, 0);
+}
+
+.low-air {
+    background-color: rgb(151, 224, 253);
+}
+
+.mid-low-air {
+    background-color: rgb(124, 195, 243);
+}
+
+.middle-air {
+    background-color: rgb(97, 167, 247);
+}
+
+.mid-high-air {
+    background-color: rgb(101, 135, 247);
+}
+
+.high-air {
+    background-color: rgb(25, 0, 250);
+}
+
+.temp-text,
+.humedad-text,
+.co2-text {
+    display: flex;
+    align-items: center;
+    width: 5%;
+    font-size: 50px;
+}
+
+.cover {
+    position: absolute;
+    width: 100%;
+    height: 90.5vh;
+    padding: 0px;
+    margin: 0px;
+    z-index: -10;
+}
+
+.red {
+    height: 90.5vh;
+    background-color: rgb(255, 131, 131);
+}
+
+.green {
+    height: 90.5vh;
+    background-color: rgb(141, 255, 131);
+}
+
+.empty {
+    width: 100%;
+}
+
+.low-range::-webkit-slider-thumb {
+    background-color: rgb(248, 223, 82);
+}
+
+.mid-low-range::-webkit-slider-thumb {
+    background-color: rgb(248, 162, 82);
+}
+
+.middle-range::-webkit-slider-thumb {
+    background-color: rgb(250, 121, 0);
+}
+
+.mid-high-range::-webkit-slider-thumb {
+    background-color: rgb(247, 74, 21);
+}
+
+.high-range::-webkit-slider-thumb {
+    background-color: rgb(250, 0, 0);
+}
+
+.low-air-range::-webkit-slider-thumb {
+    background-color: rgb(151, 224, 253);
+}
+
+.mid-low-air-range::-webkit-slider-thumb {
+    background-color: rgb(124, 195, 243);
+}
+
+.middle-air-range::-webkit-slider-thumb {
+    background-color: rgb(97, 167, 247);
+}
+
+.mid-high-air-range::-webkit-slider-thumb {
+    background-color: rgb(101, 135, 247);
+}
+
+.high-air-range::-webkit-slider-thumb {
+    background-color: rgb(25, 0, 250);
+}
+
+.low-range::-moz-range-thumb {
+    background-color: rgb(248, 223, 82);
+}
+
+.mid-low-range::-moz-range-thumb {
+    background-color: rgb(248, 162, 82);
+}
+
+.middle-range::-moz-range-thumb {
+    background-color: rgb(250, 121, 0);
+}
+
+.mid-high-range::-moz-range-thumb {
+    background-color: rgb(247, 74, 21);
+}
+
+.high-range::-moz-range-thumb {
+    background-color: rgb(250, 0, 0);
+}
+
+.low-air-range::-moz-range-thumb {
+    background-color: rgb(151, 224, 253);
+}
+
+.mid-low-air-range::-moz-range-thumb {
+    background-color: rgb(124, 195, 243);
+}
+
+.middle-air-range::-moz-range-thumb {
+    background-color: rgb(97, 167, 247);
+}
+
+.mid-high-air-range::-moz-range-thumb {
+    background-color: rgb(101, 135, 247);
+}
+
+.high-air-range::-moz-range-thumb {
+    background-color: rgb(25, 0, 250);
+}
+
+.low-range::-ms-thumb {
+    background-color: rgb(248, 223, 82);
+}
+
+.mid-low-range::-ms-thumb {
+    background-color: rgb(248, 162, 82);
+}
+
+.middle-range::-ms-thumb {
+    background-color: rgb(250, 121, 0);
+}
+
+.mid-high-range::-ms-thumb {
+    background-color: rgb(247, 74, 21);
+}
+
+.high-range::-ms-thumb {
+    background-color: rgb(250, 0, 0);
+}
+
+.low-air-range::-ms-thumb {
+    background-color: rgb(151, 224, 253);
+}
+
+.mid-low-air-range::-ms-thumb {
+    background-color: rgb(124, 195, 243);
+}
+
+.middle-air-range::-ms-thumb {
+    background-color: rgb(97, 167, 247);
+}
+
+.mid-high-air-range::-ms-thumb {
+    background-color: rgb(101, 135, 247);
+}
+
+.high-air-range::-ms-thumb {
+    background-color: rgb(25, 0, 250);
+}
+
+.navbar-text {
+    text-align: right;
+    width: 85%;
+    font-size: 25px;
+}
+
+.bx-log-out {
+    color: rgb(255, 255, 255);
+}
+
+.bx-log-out:hover {
+    color: rgb(255, 0, 0);
+}
+
+@media (max-width:1920px) {
+    .linea {
+        height: 92vh;
+    }
+    .circulo {
+        height: 220px;
+    }
+    .cover {
+        height: 92vh;
+    }
+    .green {
+        height: 92vh;
+    }
+    .red {
+        height: 92vh;
+    }
+}

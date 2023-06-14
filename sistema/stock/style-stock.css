@@ -1,0 +1,228 @@
+body {
+    background-color: rgb(214, 214, 214);
+    overflow: hidden;
+}
+
+.content {
+    margin-top: 10px;
+}
+
+.progress {
+    width: 95%;
+    margin-top: 4px;
+}
+
+.progress-background {
+    height: 50px;
+    width: 99.2%;
+    background-color: rgb(54, 54, 54);
+    padding-top: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.col-12 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.progress-container {
+    display: flex;
+    justify-content: center;
+}
+
+.progress-text {
+    display: flex;
+    margin-left: 2.5%;
+}
+
+.col-md-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 49.6%;
+    height: 41vh;
+}
+
+.col-md-6 h1 {
+    font-size: 80px;
+}
+
+.tipo-curado h1 {
+    margin-top: 2%;
+}
+
+.fresco {
+    background: url(../../img/fresco.jpg);
+    background-size: cover;
+    color: #fff;
+}
+
+.fresco:hover {
+    background: url(../../img/fresco2.jpg);
+    background-size: cover;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+.tierno {
+    background: url(../../img/tierno.jpg);
+    background-size: cover;
+    color: #fff;
+}
+
+.tierno:hover {
+    background: url(../../img/tierno2.jpg);
+    background-size: cover;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+.semicurado {
+    background: url(../../img/semicurado.jpg);
+    background-size: cover;
+    color: #fff;
+}
+
+.semicurado:hover {
+    background: url(../../img/semicurado2.jpg);
+    background-size: cover;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+.curado {
+    background: url(../../img/curado.jpg);
+    background-size: cover;
+    color: #fff;
+}
+
+.curado:hover {
+    background: url(../../img/curado2.jpg);
+    background-size: cover;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.lote {
+    border: solid 1px black;
+    border-radius: 5px;
+    background-color: cornsilk;
+    width: 100%;
+    height: 25vh;
+}
+
+.card {
+    margin: 37px 0px 37px 0px;
+}
+
+.col-md-2,
+.col-md-3 {
+    background-color: rgb(208, 227, 245);
+    border: 1px solid rgb(255, 172, 172);
+    height: 30.86vh;
+}
+
+.item-sec-text {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.item-sec-des {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-end;
+    font-size: 25px;
+}
+
+.item-sec-datos {
+    text-align: center;
+}
+
+.item-sec-datos h4 {
+    font-size: 20px;
+}
+
+.item-sec-datos h4 a {
+    text-decoration: none;
+}
+
+.bx-check-circle,
+.bx-x-circle {
+    font-size: 50px;
+}
+
+.item-sec {
+    height: 10vh;
+}
+
+.bxs-star,
+.bx-star {
+    color: rgb(255, 72, 0);
+}
+
+.accept {
+    color: green;
+}
+
+.decline {
+    color: red;
+}
+
+#volver {
+    font-size: 30px;
+    width: 100%;
+}
+
+#volver i {
+    width: 20px;
+    margin-right: 10px;
+}
+
+#volver h4 {
+    width: 203px;
+}
+
+#volver i:hover {
+    cursor: pointer;
+}
+
+#volver h4:hover {
+    cursor: pointer;
+}
+
+.bxs-star,
+.bx-star {
+    color: rgb(255, 72, 0);
+}
+
+.navbar-text {
+    text-align: right;
+    width: 85%;
+    font-size: 25px;
+}
+
+.bx-log-out {
+    color: rgb(255, 255, 255);
+}
+
+.bx-log-out:hover {
+    color: rgb(255, 0, 0);
+}
+
+@media (max-width:1920px) {
+    .col-md-6 {
+        width: 49.7%;
+        height: 42vh;
+    }
+    .progress-background {
+        width: 99.3%;
+    }
+}

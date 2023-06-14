@@ -1,0 +1,30 @@
+body {
+    overflow-x: hidden;
+}
+
+.col-md-12 {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-text {
+    text-align: right;
+    width: 85%;
+    font-size: 25px;
+}
+
+.bx-log-out {
+    color: rgb(255, 255, 255);
+}
+
+.bx-log-out:hover {
+    color: rgb(255, 0, 0);
+}
+
+footer {
+    position: fixed;
+    background-color: rgb(202, 200, 200);
+    width: 100.9%;
+    bottom: 0px;
+    height: 9.8vh;
+}
